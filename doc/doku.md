@@ -6,3 +6,5 @@
 - Konstruktor, Getter und Setter Methoden verbessert (null Überprüfung)
 ## Commit 3
 - Hinzufügen der anzeigen Methode in der Klasse Medium
+## Commit 4
+- Hinzufügen der Klassen Film(Getter, Setter und Konstruktor) und EBook
