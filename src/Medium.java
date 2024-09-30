@@ -60,4 +60,12 @@ public class Medium {
         Objects.requireNonNull(erscheinungsdatum);
         this.erscheinungsdatum = erscheinungsdatum;
     }
+
+    public void anzeigen(){
+        System.out.println("Titel: " + this.titel);
+        System.out.println("Urheber: " + this.urheber);
+        System.out.println("Genre: " + this.genre);
+        System.out.println("Kommentar: " + kommentar);
+        System.out.println("Erscheinungsdatum: " + this.erscheinungsdatum);
+    }
 }
