@@ -8,3 +8,7 @@
 - Hinzufügen der anzeigen Methode in der Klasse Medium
 ## Commit 4
 - Hinzufügen der Klassen Film(Getter, Setter und Konstruktor) und EBook
+
+
+## Commit 5
+- Implementieren der Klasse EBook(Getter, Setter und Konstruktor)
