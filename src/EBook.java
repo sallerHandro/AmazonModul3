@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
@@ -6,7 +7,7 @@ public class EBook extends Medium{
     private int seitenanzhal;
     private String auflage;
 
-    public EBook(String titel, Urheber urheber, Genre genre, String kommentar, Date erscheinungsdatum, String ISBN, int seitenanzhal, String auflage) {
+    public EBook(String titel, Urheber urheber, Genre genre, String kommentar, LocalDate erscheinungsdatum, String ISBN, int seitenanzhal, String auflage) {
         super(titel, urheber, genre, kommentar, erscheinungsdatum);
         this.ISBN = ISBN;
         this.seitenanzhal = seitenanzhal;
@@ -37,5 +38,13 @@ public class EBook extends Medium{
     public void setAuflage(String auflage) {
         Objects.requireNonNull(auflage);
         this.auflage = auflage;
+    }
+
+    @Override
+    public void anzeigen(){
+        super.anzeigen();
+        System.out.println("ISBN: " + this.ISBN);
+        System.out.println("Seitenanzahl: " + this.seitenanzhal);
+        System.out.println("Auflage: " + this.auflage);
     }
 }

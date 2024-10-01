@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Medium {
@@ -6,9 +6,9 @@ public class Medium {
     private Urheber urheber;
     private Genre genre;
     private String kommentar;
-    private Date erscheinungsdatum;
+    private LocalDate erscheinungsdatum;
 
-    public Medium(String titel, Urheber urheber, Genre genre, String kommentar, Date erscheinungsdatum) {
+    public Medium(String titel, Urheber urheber, Genre genre, String kommentar, LocalDate erscheinungsdatum) {
         setTitel(titel);
         setUrheber(urheber);
         setGenre(genre);
@@ -52,11 +52,11 @@ public class Medium {
         this.kommentar = kommentar;
     }
 
-    public Date getErscheinungsdatum() {
+    public LocalDate getErscheinungsdatum() {
         return erscheinungsdatum;
     }
 
-    public void setErscheinungsdatum(Date erscheinungsdatum) {
+    public void setErscheinungsdatum(LocalDate erscheinungsdatum) {
         Objects.requireNonNull(erscheinungsdatum);
         this.erscheinungsdatum = erscheinungsdatum;
     }

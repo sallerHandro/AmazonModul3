@@ -12,3 +12,7 @@
 
 ## Commit 5
 - Implementieren der Klasse EBook(Getter, Setter und Konstruktor)
+## Commit 6
+- ändern des Datumtyps auf LocalDate
+- hinzufügen der anzeigen Mehode in die Klassen Film und EBook
+- erste Tests in der Main Klasse
