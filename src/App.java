@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         LocalDate datum = LocalDate.of(2007,12,20);
         Urheber urheber = new Urheber("Raphli", "Walter", "Walter GmbH");

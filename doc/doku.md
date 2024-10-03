@@ -16,6 +16,8 @@
 - ändern des Datumtyps auf LocalDate
 - hinzufügen der anzeigen Mehode in die Klassen Film und EBook
 - erste Tests in der App Klasse
-
 ## Commit 7
 - Implementieren der Klasse Medienbibliothek
+
+## Commit 8
+- Alles ausgetestet und verstanden!
