@@ -46,5 +46,6 @@ public class EBook extends Medium{
         System.out.println("ISBN: " + this.ISBN);
         System.out.println("Seitenanzahl: " + this.seitenanzhal);
         System.out.println("Auflage: " + this.auflage);
+        System.out.println(" ");
     }
 }

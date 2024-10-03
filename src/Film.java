@@ -35,5 +35,6 @@ public class Film extends Medium{
         super.anzeigen();
         System.out.println("Spielzeit: " + this.spielzeit);
         System.out.println("Auflösung: " + this.aufloesung);
+        System.out.println(" ");
     }
 }

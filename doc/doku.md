@@ -21,3 +21,5 @@
 
 ## Commit 8
 - Alles ausgetestet und verstanden!
+## Commit 9
+- Nochmal verbessert und jetzt wirklich alle Funktionen ausgetestet
